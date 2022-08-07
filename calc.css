@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    background-image: url(imagenes-de-las-pruebas/Zelda\ Color.jpg);
+    background-size:cover;
+}
+
+.calc{
+     display: grid;
+     margin:0 auto;
+     margin-top:35vh;
+    background-color:rgb(78, 84, 97);
+   width: 200px;
+   height:230px;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: repeat(4,1fr);
+ 
+    border-radius: 5px;
+}
+
+.num{
+   
+    border: 3px solid black;
+    
+    
+}
+
+.operador{
+    border: 3px solid black;
+    
+ 
+}
+
+#numbers{
+    grid-column-start:1;
+    grid-column-end:5;
+}
